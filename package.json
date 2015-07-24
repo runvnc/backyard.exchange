@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "babel app.js | node",
-    "stop": "pkill -f app.js"
+    "build": "babel --stage 1 --optional runtime -d lib src",
+    "start": "node lib/app.js &",
+    "stop": "pkill -f lib/app.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "babel-runtime": "^5.8.3",
     "better-log": "^1.3.1",
     "rethinkdb": "^2.0.2",
     "shortrest": "^2.0.1"

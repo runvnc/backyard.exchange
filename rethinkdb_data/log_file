@@ -1,0 +1,118 @@
+2015-07-24T17:14:37.532854289 0.005341s notice: Recursively removing directory /home/runvnc/code3/backyard.exchange/rethinkdb_data/tmp
+2015-07-24T17:14:37.535954856 0.008437s notice: Initializing directory /home/runvnc/code3/backyard.exchange/rethinkdb_data
+2015-07-24T17:14:37.536115353 0.008598s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/home/runvnc/code3/backyard.exchange/rethinkdb_data' did not already exist or is empty.)
+2015-07-24T17:14:37.536157808 0.008640s notice: Running rethinkdb 2.0.4~0trusty (GCC 4.8.2)...
+2015-07-24T17:14:37.539397352 0.011881s notice: Running on Linux 4.1.0-x86_64-linode59 x86_64
+2015-07-24T17:14:37.539461231 0.011943s notice: Loading data from directory /home/runvnc/code3/backyard.exchange/rethinkdb_data
+2015-07-24T17:14:37.677305192 0.149788s info: Automatically using cache size of 110 MB
+2015-07-24T17:14:37.680827659 0.153310s notice: Listening for intracluster connections on port 29015
+2015-07-24T17:14:37.683528697 0.156011s notice: Listening for client driver connections on port 28015
+2015-07-24T17:14:37.683613099 0.156095s notice: Listening for administrative HTTP connections on port 8080
+2015-07-24T17:14:37.683616560 0.156098s notice: Listening on addresses: 127.0.0.1, ::1
+2015-07-24T17:14:37.683617939 0.156100s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-07-24T17:14:37.683619271 0.156101s notice: Server ready, "li810_27_yoz" c9d0433a-e542-4acd-9c54-f33819aae2e2
+2015-07-24T17:14:43.819971416 6.292454s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2015-07-24T17:14:43.820088658 6.292571s notice: Shutting down client connections...
+2015-07-24T17:14:43.820230941 6.292713s notice: All client connections closed.
+2015-07-24T17:14:43.820234901 6.292717s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-07-24T17:14:43.820697631 6.293180s notice: Storage engine shut down.
+2015-07-24T17:14:49.062109125 0.002404s notice: Running rethinkdb 2.0.4~0trusty (GCC 4.8.2)...
+2015-07-24T17:14:49.064276864 0.004573s notice: Running on Linux 4.1.0-x86_64-linode59 x86_64
+2015-07-24T17:14:49.064354331 0.004649s notice: Loading data from directory /home/runvnc/code3/backyard.exchange/rethinkdb_data
+2015-07-24T17:14:49.117778135 0.058073s info: Automatically using cache size of 110 MB
+2015-07-24T17:14:49.118681108 0.058976s notice: Listening for intracluster connections on port 29015
+2015-07-24T17:14:49.119779225 0.060074s notice: Listening for client driver connections on port 28015
+2015-07-24T17:14:49.119914841 0.060210s notice: Listening for administrative HTTP connections on port 8080
+2015-07-24T17:14:49.119917603 0.060212s notice: Listening on addresses: 127.0.0.1, ::1
+2015-07-24T17:14:49.119919743 0.060214s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-07-24T17:14:49.119921826 0.060216s notice: Server ready, "li810_27_yoz" c9d0433a-e542-4acd-9c54-f33819aae2e2
+2015-07-24T17:17:32.051225351 162.991521s notice: Server got SIGTERM from pid 15828, uid 1001; shutting down...
+2015-07-24T17:17:32.051298079 162.991593s notice: Shutting down client connections...
+2015-07-24T17:17:32.051617754 162.991913s notice: All client connections closed.
+2015-07-24T17:17:32.051619819 162.991914s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-07-24T17:17:32.051964905 162.992260s notice: Storage engine shut down.
+2015-07-24T17:17:32.052607382 162.992902s error: Failed to shutdown worker process: 'failed to send job function to worker'.  Killing it.
+2015-07-24T17:18:02.113316663 0.003186s notice: Running rethinkdb 2.0.4~0trusty (GCC 4.8.2)...
+2015-07-24T17:18:02.115538059 0.005408s notice: Running on Linux 4.1.0-x86_64-linode59 x86_64
+2015-07-24T17:18:02.115623040 0.005491s notice: Loading data from directory /home/runvnc/code3/backyard.exchange/rethinkdb_data
+2015-07-24T17:18:02.158076770 0.047946s info: Automatically using cache size of 110 MB
+2015-07-24T17:18:02.159141299 0.049010s notice: Listening for intracluster connections on port 29015
+2015-07-24T17:18:02.160043021 0.049911s notice: Listening for client driver connections on port 28015
+2015-07-24T17:18:02.160157229 0.050026s notice: Listening for administrative HTTP connections on port 8080
+2015-07-24T17:18:02.160159398 0.050028s notice: Listening on addresses: 127.0.0.1, ::1
+2015-07-24T17:18:02.160161126 0.050029s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-07-24T17:18:02.160162757 0.050031s notice: Server ready, "li810_27_yoz" c9d0433a-e542-4acd-9c54-f33819aae2e2
+2015-07-24T18:55:03.681652897 5821.571522s notice: Server got SIGTERM from pid 17241, uid 1001; shutting down...
+2015-07-24T18:55:03.681728621 5821.571597s notice: Shutting down client connections...
+2015-07-24T18:55:03.681887409 5821.571756s notice: All client connections closed.
+2015-07-24T18:55:03.681888971 5821.571757s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-07-24T18:55:03.682126601 5821.571995s notice: Storage engine shut down.
+2015-07-24T18:55:03.683441635 5821.573310s error: Failed to shutdown worker process: 'failed to send job function to worker'.  Killing it.
+2015-07-24T18:56:23.559359587 0.003160s notice: Running rethinkdb 2.0.4~0trusty (GCC 4.8.2)...
+2015-07-24T18:56:23.561995239 0.005798s notice: Running on Linux 4.1.0-x86_64-linode59 x86_64
+2015-07-24T18:56:23.562042327 0.005843s notice: Loading data from directory /home/runvnc/code3/backyard.exchange/rethinkdb_data
+2015-07-24T18:56:23.606196998 0.049998s info: Automatically using cache size of 110 MB
+2015-07-24T18:56:23.606941228 0.050742s notice: Listening for intracluster connections on port 29015
+2015-07-24T18:56:23.607638881 0.051439s notice: Listening for client driver connections on port 28015
+2015-07-24T18:56:23.607726987 0.051527s notice: Listening for administrative HTTP connections on port 8080
+2015-07-24T18:56:23.607728448 0.051529s notice: Listening on addresses: 127.0.0.1, ::1
+2015-07-24T18:56:23.607729690 0.051530s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-07-24T18:56:23.607730914 0.051531s notice: Server ready, "li810_27_yoz" c9d0433a-e542-4acd-9c54-f33819aae2e2
+2015-07-24T18:57:11.578081940 48.021883s notice: Server got SIGTERM from pid 17505, uid 1001; shutting down...
+2015-07-24T18:57:11.578150052 48.021951s notice: Shutting down client connections...
+2015-07-24T18:57:11.578482557 48.022283s notice: All client connections closed.
+2015-07-24T18:57:11.578484668 48.022285s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-07-24T18:57:11.578752685 48.022553s notice: Storage engine shut down.
+2015-07-24T18:57:11.579985372 48.023787s error: Failed to shutdown worker process: 'failed to send job function to worker'.  Killing it.
+2015-07-24T18:57:40.522046064 0.003190s notice: Running rethinkdb 2.0.4~0trusty (GCC 4.8.2)...
+2015-07-24T18:57:40.525096588 0.006242s notice: Running on Linux 4.1.0-x86_64-linode59 x86_64
+2015-07-24T18:57:40.525179497 0.006323s notice: Loading data from directory /home/runvnc/code3/backyard.exchange/rethinkdb_data
+2015-07-24T18:57:40.571938810 0.053083s info: Automatically using cache size of 110 MB
+2015-07-24T18:57:40.575915848 0.057060s notice: Listening for intracluster connections on port 29015
+2015-07-24T18:57:40.577230526 0.058374s notice: Listening for client driver connections on port 28015
+2015-07-24T18:57:40.577775303 0.058919s notice: Listening for administrative HTTP connections on port 8080
+2015-07-24T18:57:40.578718547 0.059862s notice: Listening on addresses: 127.0.0.1, 172.17.42.1, 104.237.134.27, ::1, 2600:3c00::f03c:91ff:fe89:9ff6, fe80::88fb:d6ff:fea5:289%13, fe80::f03c:91ff:fe89:9ff6%3
+2015-07-24T18:57:40.578740803 0.059884s notice: Server ready, "li810_27_yoz" c9d0433a-e542-4acd-9c54-f33819aae2e2
+2015-07-24T19:05:12.850976337 452.332120s notice: Server got SIGTERM from pid 18145, uid 1001; shutting down...
+2015-07-24T19:05:12.851363428 452.332507s notice: Shutting down client connections...
+2015-07-24T19:05:12.851437580 452.332581s notice: All client connections closed.
+2015-07-24T19:05:12.851441581 452.332585s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-07-24T19:05:12.851783275 452.332927s notice: Storage engine shut down.
+2015-07-24T19:05:12.852095005 452.333238s error: Failed to shutdown worker process: 'failed to send job function to worker'.  Killing it.
+2015-07-24T19:05:49.481191208 0.007847s notice: Running rethinkdb 2.0.4~0trusty (GCC 4.8.2)...
+2015-07-24T19:05:49.483321796 0.009978s notice: Running on Linux 4.1.0-x86_64-linode59 x86_64
+2015-07-24T19:05:49.483356297 0.010011s notice: Loading data from directory /home/runvnc/code3/backyard.exchange/rethinkdb_data
+2015-07-24T19:05:49.526643639 0.053299s info: Automatically using cache size of 121 MB
+2015-07-24T19:05:49.545293135 0.071949s notice: Listening for intracluster connections on port 29015
+2015-07-24T19:05:49.545954922 0.072610s notice: Listening for client driver connections on port 28015
+2015-07-24T19:05:49.546081517 0.072737s notice: Listening for administrative HTTP connections on port 8080
+2015-07-24T19:05:49.546665279 0.073320s notice: Listening on addresses: 127.0.0.1, 172.17.42.1, 104.237.134.27, ::1, 2600:3c00::f03c:91ff:fe89:9ff6, fe80::88fb:d6ff:fea5:289%13, fe80::f03c:91ff:fe89:9ff6%3
+2015-07-24T19:05:49.546666831 0.073322s notice: Server ready, "li810_27_yoz" c9d0433a-e542-4acd-9c54-f33819aae2e2
+2015-07-24T19:12:45.797094946 416.323751s notice: Server got SIGTERM from pid 18462, uid 0; shutting down...
+2015-07-24T19:12:45.797160345 416.323815s notice: Shutting down client connections...
+2015-07-24T19:12:45.797293190 416.323948s notice: All client connections closed.
+2015-07-24T19:12:45.797296961 416.323952s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-07-24T19:12:45.797565436 416.324221s notice: Storage engine shut down.
+2015-07-24T19:12:59.142293742 0.002839s notice: Running rethinkdb 2.0.4~0trusty (GCC 4.8.2)...
+2015-07-24T19:12:59.145274037 0.005820s notice: Running on Linux 4.1.0-x86_64-linode59 x86_64
+2015-07-24T19:12:59.145399143 0.005944s notice: Loading data from directory /home/runvnc/code3/backyard.exchange/rethinkdb_data
+2015-07-24T19:12:59.189942793 0.050488s info: Automatically using cache size of 109 MB
+2015-07-24T19:12:59.191396281 0.051941s notice: Listening for intracluster connections on port 29015
+2015-07-24T19:12:59.192207913 0.052752s notice: Listening for client driver connections on port 28015
+2015-07-24T19:12:59.192291860 0.052836s notice: Listening for administrative HTTP connections on port 8080
+2015-07-24T19:12:59.193193397 0.053738s notice: Listening on addresses: 127.0.0.1, 172.17.42.1, 104.237.134.27, ::1, 2600:3c00::f03c:91ff:fe89:9ff6, fe80::88fb:d6ff:fea5:289%13, fe80::f03c:91ff:fe89:9ff6%3
+2015-07-24T19:12:59.193195158 0.053739s notice: Server ready, "li810_27_yoz" c9d0433a-e542-4acd-9c54-f33819aae2e2
+2015-07-24T19:13:22.423871385 23.284416s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2015-07-24T19:13:22.423965676 23.284510s notice: Shutting down client connections...
+2015-07-24T19:13:22.424137335 23.284682s notice: All client connections closed.
+2015-07-24T19:13:22.424139559 23.284684s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-07-24T19:13:22.424480445 23.285025s notice: Storage engine shut down.
+2015-07-24T19:14:08.573787053 0.002879s notice: Running rethinkdb 2.0.4~0trusty (GCC 4.8.2)...
+2015-07-24T19:14:08.575966547 0.005060s notice: Running on Linux 4.1.0-x86_64-linode59 x86_64
+2015-07-24T19:14:08.576023901 0.005116s notice: Loading data from directory /home/runvnc/code3/backyard.exchange/rethinkdb_data
+2015-07-24T19:14:08.619569071 0.048662s info: Automatically using cache size of 109 MB
+2015-07-24T19:14:08.621694637 0.050787s notice: Listening for intracluster connections on port 29015
+2015-07-24T19:14:08.622478891 0.051571s notice: Listening for client driver connections on port 28015
+2015-07-24T19:14:08.622624619 0.051717s notice: Listening for administrative HTTP connections on port 8080
+2015-07-24T19:14:08.623644247 0.052736s notice: Listening on addresses: 127.0.0.1, 172.17.42.1, 104.237.134.27, ::1, 2600:3c00::f03c:91ff:fe89:9ff6, fe80::88fb:d6ff:fea5:289%13, fe80::f03c:91ff:fe89:9ff6%3
+2015-07-24T19:14:08.623646060 0.052738s notice: Server ready, "li810_27_yoz" c9d0433a-e542-4acd-9c54-f33819aae2e2
