@@ -125,3 +125,4 @@
 2015-07-25T11:42:57.932969426 0.043934s notice: Listening for administrative HTTP connections on port 8080
 2015-07-25T11:42:57.933682068 0.044647s notice: Listening on addresses: 127.0.0.1, 172.17.42.1, 104.237.134.27, ::1, 2600:3c00::f03c:91ff:fe89:9ff6, fe80::88fb:d6ff:fea5:289%13, fe80::f03c:91ff:fe89:9ff6%3
 2015-07-25T11:42:57.933687662 0.044652s notice: Server ready, "li810_27_yoz" c9d0433a-e542-4acd-9c54-f33819aae2e2
+2015-07-25T12:55:49.591807011 4371.702779s notice: Someone asked for the nonwhitelisted file "/w00tw00t.at.ISC.SANS.DFind:)".  If this should be accessible, add it to the static web assets.

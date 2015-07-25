@@ -15,7 +15,9 @@ export function addYard(yard) {
 
 export async function query(opts, page) {
   var rql = r.table('yards');
+  console.log('opts',opts);
   let {flags} = opts;
+  console.log('flags', flags);
   for (let key in flags) {
     rql = rql.filter(r.row(key).eq(flags[key]));
   }

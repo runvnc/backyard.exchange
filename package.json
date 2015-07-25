@@ -6,7 +6,8 @@
   "scripts": {
     "build": "babel --stage 1 --optional runtime -d lib src",
     "start": "node lib/app.js &",
-    "stop": "pkill -f lib/app.js"
+    "stop": "pkill -f lib/app.js",
+    "restart": "npm run build && npm stop; npm start"
   },
   "author": "",
   "license": "ISC",
