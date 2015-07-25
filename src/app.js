@@ -9,4 +9,10 @@ web.post('/yards', (req, res) => {
   res.json({ok:true});  
 });
 
+web.get('/yards', (req, res) => {
+  console.log('query');
+  query(req.params);
+  res.json({ok:true});   
+});
+
 console.info('Port 8099');

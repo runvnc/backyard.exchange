@@ -1,5 +1,6 @@
 import * as r from 'rethinkdb';
 import 'better-log/install';
+import {inspect} from 'util';
 
 var cn;
 
@@ -12,15 +13,18 @@ export function addYard(yard) {
   return r.table('yards').insert(yard).run(cn);
 }
 
-export function query(opts, page) {
+export async function query(opts, page) {
   var rql = r.table('yards');
   let {flags} = opts;
   for (let key in flags) {
     rql = rql.filter(r.row(key).eq(flags[key]));
   }
-  console.log(rql);
+  let cursor = await rql.run(cn);
+  let arr = await cursor.toArray();
+  console.log(inspect(arr));
+  return arr;
 }
 
 export function initDB() {
   r.tableCreate('yards').run(cn);  
-}
+};
