@@ -1,6 +1,7 @@
 import * as r from 'rethinkdb';
 import 'better-log/install';
 import {inspect} from 'util';
+import {flags,nums} from './schema';
 
 var cn;
 
@@ -16,10 +17,9 @@ export function addYard(yard) {
 export async function query(opts, page) {
   var rql = r.table('yards');
   console.log('opts',opts);
-  let {flags} = opts;
   console.log('flags', flags);
   for (let key in flags) {
-    rql = rql.filter(r.row(key).eq(flags[key]));
+    rql = rql.filter(r.row(key).eq(opts[key]));
   }
   let cursor = await rql.run(cn);
   let arr = await cursor.toArray();
