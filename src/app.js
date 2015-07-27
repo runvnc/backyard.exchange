@@ -1,15 +1,23 @@
 import 'better-log/install';
 import {addYard, query} from './by.js';
 
-import sr from 'shortrest';
-var web = sr(8099);                 
+import express from 'shortrest';
 
-web.post('/yards', (req, res) => {          
+var app = express();
+app.use(express.static('web'));
+
+app.get('/', function (req, res) {
+    res.send('Hello World!');
+});
+
+var server = app.listen(8099);
+
+app.post('/yards', (req, res) => {          
   addYard(req.params);
   res.json({ok:true});  
 });
 
-web.get('/yards', (req, res) => {
+app.get('/yards', (req, res) => {
   console.log('query');
   query(req.params);
   res.json({ok:true});   
